@@ -62,16 +62,6 @@
       <div class="container">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button class="hero-btn" type="button" data-modal-open>Замовити послугу</button>
-        <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
-            <p></p>
-            <button class="btn-close" data-modal-close>
-              <svg width="18px" height="18px">
-                <use href="./images/icons/sprite.svg#icon-close"></use>
-              </svg>
-            </button>
-          </div>
-        </div>
       </div>
     </section>
     <!-- Особливості -->
@@ -129,7 +119,7 @@
     <!-- Чим ми займаємося -->
     <section class="section">
       <div class="container">
-        <h2 class="section-title">Чим ми займаємося</h2>
+        <p class="section-title">Чим ми займаємося</p>
         <ul class="works-list list">
           <li class="works-item">
             <div class="work-img">
@@ -140,7 +130,7 @@
           <li class="works-item">
             <div class="work-img">
               <img class="works img" src="./images/box1.jpg" alt="Мобільні додатки" width="370" height="294" />
-              <p class="work-desc">Мобільні додатки</p>
+              <h3 class="work-desc">Мобільні додатки</h3>
             </div>
           </li>
           <li class="works-item">
@@ -420,6 +410,19 @@
       </div>
     </div>
   </footer>
+
+  <!-- Модальне вікно -->
+
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="btn-close" data-modal-close>
+        <svg width="18px" height="18px">
+          <use href="./images/icons/sprite.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+
+  </div>
   <script src="./js/modal.js"></script>
 </body>
 
